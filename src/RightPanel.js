@@ -46,8 +46,17 @@ const StyledButton = styled.button`
 `;
 
 const StyledSpace = styled.div`
-  margin: 10px 0 5px 0;
+  margin: 10px 5px 5px 5px;
   text-align: center;
+  font-size: 0.8rem;
+  height: 0.6em;
+  border-bottom: 1px solid #dbdbdb;
+  margin-bottom: 0.5em;
+  color: #aaaaaa;
+
+  :first-line {
+    background-color: white;
+  }
 `;
 
 const StyledLink = styled.a`
@@ -79,7 +88,7 @@ const StyledDownloadWrapper = styled.div`
   grid-template-areas:
     "download download"
     "appstore googleplay";
-  margin: 15px;
+  margin: 5px;
   padding: 10px;
   justify-content: center;
   align-content: center;
@@ -147,7 +156,7 @@ function RightPanel() {
         >
           Zaloguj się
         </StyledButton>
-        <StyledSpace>----- LUB -----</StyledSpace>
+        <StyledSpace>LUB</StyledSpace>
         <StyledLink
           href="https://facebook.com"
           style={{

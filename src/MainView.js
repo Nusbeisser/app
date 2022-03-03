@@ -9,12 +9,12 @@ const StyledWrapper = styled.div`
     "image rightpanel"
     "footer footer";
   grid-template-rows: 0 1fr;
-  grid-template-columns: 450px 400px;
+  grid-template-columns: 450px 380px;
   grid-row-gap: 10px;
   grid-column-gap: 0px;
   height: 100%;
   margin: 0;
-  padding: 10px;
+  padding: 5px;
   justify-content: center;
   align-content: center;
 `;
@@ -27,10 +27,10 @@ const StyledImage = styled.div`
 
 const StyledRightPanel = styled.div`
   grid-area: rightpanel;
+  margin-top: 30px;
 `;
 
 const StyledFooter = styled.div`
-  border: 2px solid yellow;
   grid-area: footer;
 `;
 
