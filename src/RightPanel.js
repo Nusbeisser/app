@@ -76,8 +76,6 @@ const StyledLink2 = styled.a`
 
 const StyledDownloadWrapper = styled.div`
   display: grid;
-  /* grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr; */
   grid-template-areas:
     "download download"
     "appstore googleplay";
